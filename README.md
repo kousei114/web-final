@@ -6,9 +6,9 @@
 このサイトは、メンバー全員で協力して制作しています。
 
 ## 開発メンバーと担当ページ
-- **A**: ホーム (`index.html`)、メンバー紹介 (`pages/members.html`)、CSS (`css/style.css`)
-- **B**: 活動内容 (`pages/activities.html`)、JavaScript (`js/script.js`)
-- **C**: 新入生に向けて (`pages/for_new_students.html`)、問い合わせ (`pages/contact.html`)、README作成
+- **(A) kousei114**: ホーム (`index.html`)、メンバー紹介 (`pages/members.html`)、CSS (`css/style.css`)
+- **(B) 251205159-hue**: 活動内容 (`pages/activities.html`)、JavaScript (`js/script.js`)
+- **(C) Ka1-M**: 新入生に向けて (`pages/for_new_students.html`)、問い合わせ (`pages/contact.html`)、README作成
 
 ## ディレクトリ構成
 ```text
