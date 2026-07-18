@@ -41,7 +41,6 @@ ul{
 .section-title{
     text-align:center;
     margin-bottom:50px;
-    margin-top: 200px;
 }
 
 .section-title h2{
@@ -75,19 +74,28 @@ ul{
 .header-inner{
 
     max-width:1200px;
+
     margin:0 auto;
+
     height:90px;
+
     display:flex;
+
     justify-content:space-between;
+
     align-items:center;
+
     padding:0 40px;
+
 }
 
 
 /* ロゴ */
 
 .header-logo img{
+
     width:90px;
+
 }
 
 
@@ -96,20 +104,31 @@ ul{
 =========================== */
 
 .site-menu ul{
+
     display:flex;
+
     gap:35px;
+
 }
 
 .site-menu li{
+
     font-size:17px;
+
 }
 
 .site-menu a{
+
     color:#1f5b37;
+
     font-weight:bold;
+
     transition:.3s;
+
     padding:8px 14px;
+
     border-radius:5px;
+
 }
 
 .site-menu a:hover{
@@ -118,11 +137,6 @@ ul{
 
     color:white;
 
-}
-.site-menu .current{
-    color:#1f5b37;
-    border-bottom:2px solid #1f5b37;
-    padding-bottom:6px;
 }
 
 
@@ -324,145 +338,7 @@ main{
     box-shadow:0 5px 20px rgba(0,0,0,0.15);
 
 }
-/* .activities*/
-.page-title{
-    text-align:center;
-    font-size: 22px;
-}
-.page-title h1{
-    color:#1f5b37;
-    display: inline-block;
-    padding-bottom:10px;
-    position:relative;
-}
 
-.page-title h1::after{
-    content:"";
-    position:absolute;
-    left:0;
-    bottom:0;
-    width:60px;
-    height:2px;
-    background:#1f5b37;
-}
-
-.page-title p{
-    margin-top:20px;
-    color:#010d12;
-    font-size: 25px;
-}
-
-/* 研究テーマ・普段の活動・年間行事*/
-.feature{
-    max-width:1100px;
-    margin:100px auto;
-    padding:0 30px;
-}
-.feature-text{
-    text-align:center;
-
-    margin-bottom:50px;
-}
-.feature-text h2{
-    font-size:22px;
-    font-weight:bold;
-    margin-bottom:20px;
-}
-.feature-text h2::after {
-    content: '';
-    display: block;
-    width: 36px;
-    height: 3px;
-    background-color: #3a7a4c;
-    margin:15px auto 0;
-}
-.feature-text p{
-    font-size:18px;
-    margin-bottom:25px;
-    color:#333;
-}
-
-
-/* 主な活動 */
-.feature-text .stair-list {
-    list-style: none;
-    padding: 0;
-    margin: 15px auto 0;
-    max-width: 600px;
-    display: inline-flex;
-    flex-direction: column;
-}
-
-.stair-list li {
-    font-size: 15px;
-    line-height: 28px;
-    padding: 8px 16px;
-    background-color: #f0f7f1;
-    border-left: 20px solid #3a8f52;
-    margin-bottom: 20px;
-    width: fit-content;
-}
-.year-events-content{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:40px;
-    margin-top:30px;
-    flex-wrap:wrap;
-}
-
-.event-table{
-    flex-shrink:0;
-}
-
-.year-events-text{
-    max-width:320px;
-    text-align:left;
-    font-size:20px;
-    line-height:1.8;
-    color:#333;
-}
-
-.year-events-text p{
-    margin-bottom:15px;
-}
-
-/* 
-   活動写真
- */
-.gallery-content{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:40px;
-    margin-top:30px;
-    flex-wrap:wrap;
-}
-
-.gallery-image{
-    flex-shrink:0;
-    width:auto;          
-    margin-top:0;
-}
-.gallery-image img{
-    width:100%;
-    max-width:500px;     
-    border-radius:15px;
-    box-shadow:0 5px 20px rgba(0,0,0,0.15);
-}
-
-.gallery-text{
-    max-width:320px;
-    text-align:left;
-    font-size:20px;
-    line-height:1.8;
-    color:#060700;
-}
-
-
-.footer {
-    margin-top: 100px;
-}
 
 /* ===========================
    News
@@ -937,13 +813,12 @@ section{
 
         width:110px;
 
-    }
+      }
 
 }
 body{
-    background:#8cad99;
+    background:rgb(67, 112, 74) ;
 }
-
 /* ===========================
    End
 =========================== */
